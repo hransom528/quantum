@@ -16,4 +16,3 @@ circ.measure(q, c)
 job = execute(circ, backend, shots=1024)
 result = job.result()
 print(result.get_counts(circ))
-
